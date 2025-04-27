@@ -1,0 +1,5 @@
+p=int(input("Enter a number"))
+t=int(input("Enter a number"))
+r=int(input("Enter a number"))
+SI= (p*t*r)/100
+print("The SI is",int(SI))
