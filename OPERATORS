@@ -1,0 +1,18 @@
+n1=int(input("Enter a number\n"))
+n2=int(input("Enter an number\n"))
+op=input("Enter a operator")
+if( op =="+"):
+    print("Addition",n1+n2)
+elif( op =='-'):
+    print("Subtraction", n1-n2)
+elif( op == '*'):
+    print("Multiplication", n1*n2)
+elif(op == "/"):
+    if n2!=0:
+        print("Division by zero error")
+    else:
+        print("Division",n1/n2)
+elif(op == "%"):
+    print("Modulo Operator",n1%n2)
+else:
+    print("Invalid Operator")
